@@ -1,0 +1,23 @@
+nav{
+    padding: 1vw 1vw 1vw 2.5vw;
+    font-family: 'Courier New', Courier, monospace;
+}
+.navbar-brand{
+    padding-right: 10vw;
+    font-size: 2vw;
+    font-weight: 600;
+}
+.navbar-brand:hover {
+    text-decoration: underline;
+    color: rgb(7, 122, 59);
+}
+.nav-item{
+    padding-right: 3vw;
+}
+.nav-item:hover a {
+    text-decoration: underline;
+    color: rgb(7, 122, 59);
+}
+#navbar-icon svg{
+    font-size: 1cm;
+}

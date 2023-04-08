@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { JobListingsComponent } from './job-listings/job-listings.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 import { JobApplicationComponent } from './job-application/job-application.component';
+import { NavigationComponent } from './navigation/navigation.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     JobListingsComponent,
     UserProfileComponent,
-    JobApplicationComponent
+    JobApplicationComponent,
+    NavigationComponent
   ],
   imports: [
     BrowserModule,
