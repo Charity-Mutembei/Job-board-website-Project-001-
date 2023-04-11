@@ -2,3 +2,18 @@ body{
     padding: 1vw 1vw 1vw 2.5vw;
     font-family: 'Courier New', Courier, monospace;
 }
+.column-title{
+    text-align: center;
+    padding: 1vw;
+    color: rgb(7, 122, 59);
+}
+#Jobs-applied{
+    background-color: #e9edc9;
+    border-radius: 1vw;
+}
+.mother-div-2{
+    padding: 1vw;
+}
+.role-name h6 a{
+    text-decoration: none;
+}
