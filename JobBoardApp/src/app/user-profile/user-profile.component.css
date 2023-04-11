@@ -1,6 +1,7 @@
 body{
     padding: 1vw 1vw 1vw 2.5vw;
     font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
 }
 .profile-picture img {
 width: 60px;
@@ -42,7 +43,7 @@ margin-left: 30%;
 #second-section{
     padding: 1vw;
     background-color: #e9edc9;
-    margin-top: 13%;
+    margin-top: 3%;
     border-radius: 1vw;
 }
 .heading {
@@ -57,4 +58,27 @@ margin-left: 30%;
 .company-section img {
     border-radius: 1vw;
     margin-top: 1vw;
+}
+#third-section{
+    background-color: #e9edc9;
+    margin-top: 3%;
+    padding: 1vw;
+    border-radius: 1vw;
+}
+.section-title{
+    color: rgb(7, 122, 59);
+    text-align: center;
+}
+.skills-set{
+    -webkit-column-count: 2;
+       -moz-column-count: 2;
+            column-count: 2; 
+}
+.skills-set p{
+    background-color: rgb(7, 122, 59, 0.2);
+    height: 2vw;
+    padding: .3vw;
+    text-align: center;
+    border-radius: .5vw;
+    color: rgb(7, 122, 59);
 }
